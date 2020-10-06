@@ -1,12 +1,13 @@
 import React from "react";
+import { navbar } from "../Styles/Portfolio.css";
 
 const Header = () => {
   return (
     <div>
       <section>
-        <nav className="navbar navbar-light"></nav>
+        <nav className={navbar}></nav>
       </section>
-      <h1 className="navbar navbar-home display-6 bg-secondary text-white mr-">
+      <h1 className="navbar navbar-home  display-6 bg-secondary text-white mr-">
         Portfolio
       </h1>
       <section className="navbar-nav ml-auto">
