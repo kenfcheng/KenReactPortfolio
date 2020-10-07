@@ -1,50 +1,66 @@
-import React from 'react'
+import React from "react";
 
 const Container = () => {
-    return (
-    <div className="container">
-        <div className="row">
-           
-            <div className="col-4">
-                <div className="card img-responsive" style="width: 18rem;">
-                    <img className="card-img-top-wedding" height="auto" width="auto" src="Images/AnthonyWedding2.jpg" alt="Photography">
-                    <div className="container bg-info text-white">
-                        <h5 className="card-title">Photography</h5>
-                        <a href="#" className="card-link">Photography Portfolio</a>
-                        <div className="card-body">
-                            <p className="card-text">Some examples of photography I've done throughout the years</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          
-            <div className="col-4">
-                <div className="card" style="width: 18rem;">
-                 <img className="card-img-top img-responsive" src="Images/findersnap.jpg" alt="Web Design">
-                 <h5 className="card-title ml-2">Web Design</h5>   
-                 <a href="https://mrbusiness87.github.io/Finder-Project1/index.html" className="card-link ml-2">Sports Finder</a>
-                    <div className="card-body">
-                        <p className="card-text">A small simple project to help indviduals find professonal sporting events near them.  Features incluse: Materliaize CSS, jquery, API's, ticket buying, and geolocation. </p>
-                    </div>
-                </div>
-            </div>
-         
-            <div className="col-4">
-                <div className="card img-responsive" style="width: 18rem;">
-                    <img className="card-img-top" src="Images/program.png" alt="Programmer">
-                    <div className="container bg-info text-white">
-                        <h5 className="card-title">Programming</h5>
-                            <a href="#" className="card-link">Examples</a>
-                            <div className="card-body">
-                                <p className="card-text">Some examples of my work in programming</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    )
-}
+  return (
+    <div>
+      <div className="container">
+        <div className="section">
+          <div className="row">
+            <div className="col s12 m4">
+              <div className="icon-block">
+                <h2 className="center brown-text">
+                  <i className="material-icons">code</i>
+                </h2>
+                <h5 className="center">Front End</h5>
 
-export default Container
+                <p className="light">
+                  Experienced in HTML, CSS, Javascript. I am familiar with
+                  various CSS frameworks like Boostrap, Materialize,
+                  Skeletonize. As well as Javascript frameworks like JQuery and
+                  React.
+                </p>
+              </div>
+            </div>
+
+            <div className="col s12 m4">
+              <div className="icon-block">
+                <h2 className="center brown-text">
+                  <i className="material-icons">sync_alt</i>
+                </h2>
+                <h5 className="center">Back End</h5>
+
+                <p className="light">
+                  My server side scripting experience are in frameworks such as
+                  Nodejs as well as using database systems such as mySQL,
+                  Mongodb, and Sequelize. Other back end-related experience
+                  includes: Passport, routing, and ORM.
+                </p>
+              </div>
+            </div>
+
+            <div className="col s12 m4">
+              <div className="icon-block">
+                <h2 className="center brown-text">
+                  <i className="material-icons">laptop</i>
+                </h2>
+                <h5 className="center">Content Writer</h5>
+
+                <p className="light">
+                  I have experience in writing content for newspapers, blogs,
+                  and websites. A sample of some of my work can be found
+                </p>
+                <a href="#" download className="col s12 center">
+                  <button type="button" className="btn s12 m4">
+                    Writing Sample
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Container;
