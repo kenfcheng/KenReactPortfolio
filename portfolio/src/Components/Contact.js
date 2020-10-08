@@ -19,18 +19,25 @@ const Contact = () => {
                   <input
                     type="text"
                     name="user_name"
-                    style="height:25px"
+                    style={{ height: "25px" }}
                   ></input>
                   <label>Email</label>
                   <input
                     type="email"
                     name="user_email"
-                    style="height:25px"
+                    style={{ height: "25px" }}
                   ></input>
                   <label>Subject</label>
-                  <input type="text" name="subject" style="height:25px"></input>
+                  <input
+                    type="text"
+                    name="subject"
+                    style={{ height: "25px" }}
+                  ></input>
                   <label>Message</label>
-                  <textarea name="message" style="height:150px"></textarea>
+                  <textarea
+                    name="message"
+                    style={{ height: "150px" }}
+                  ></textarea>
                   <input type="submit" value="Send"></input>
                 </form>
               </p>

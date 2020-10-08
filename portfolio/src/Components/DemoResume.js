@@ -1,4 +1,6 @@
 import React from "react";
+import constellationbackground from "../Images/constellationbackground.jpg";
+import Resume from "./Resume";
 
 const DemoResume = () => {
   return (
@@ -91,11 +93,8 @@ const DemoResume = () => {
                   Are you interested but want to know more about my work
                   experience? Feel free to download my resume!
                 </p>
-                <a
-                  href="DeveloperResume.pdf"
-                  download
-                  className="col s12 center"
-                >
+                <a className="col s12 center">
+                  <Resume />
                   <button type="button" className="btn s12 m4">
                     Download Resume
                   </button>
@@ -117,7 +116,7 @@ const DemoResume = () => {
 
         <div className="parallax">
           <img
-            src="constellationbackground.jpg.jpg"
+            src={constellationbackground.jpg}
             alt="Unsplashed background img 3"
           />
         </div>
