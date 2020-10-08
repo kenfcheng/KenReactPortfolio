@@ -1,6 +1,10 @@
 import React from "react";
 import constellationbackground from "../Images/constellationbackground.jpg";
-import Resume from "./Resume";
+import {
+  parallaxContainer,
+  valignWrapper,
+  parallaxAbout,
+} from "../Styles/Style.css";
 
 const DemoResume = () => {
   return (
@@ -93,8 +97,11 @@ const DemoResume = () => {
                   Are you interested but want to know more about my work
                   experience? Feel free to download my resume!
                 </p>
-                <a className="col s12 center">
-                  <Resume />
+                <a
+                  className="col s12 center"
+                  href="../Resume/DeveloperResume.pdf"
+                  download
+                >
                   <button type="button" className="btn s12 m4">
                     Download Resume
                   </button>
@@ -105,7 +112,7 @@ const DemoResume = () => {
         </div>
       </div>
 
-      <div className="parallax-container valign-wrapper">
+      <div className={parallaxContainer} {...valignWrapper}>
         <div className="section no-pad-bot">
           <div className="container">
             <div className="row center">
@@ -114,9 +121,9 @@ const DemoResume = () => {
           </div>
         </div>
 
-        <div className="parallax">
+        <div className={parallaxAbout}>
           <img
-            src={constellationbackground.jpg}
+            src={constellationbackground}
             alt="Unsplashed background img 3"
           />
         </div>

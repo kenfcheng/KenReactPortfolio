@@ -1,10 +1,15 @@
 import React from "react";
 import milkywaybackground from "../Images/milkywaybackground.jpg";
+import {
+  parallaxContainer,
+  valignWrapper,
+  parallaxAbout,
+} from "../Styles/Style.css";
 
 const AboutMe = () => {
   return (
     <div>
-      <div className="parallax-container valign-wrapper">
+      <div className={parallaxContainer} {...valignWrapper}>
         <div className="section no-pad-bot">
           <div className="container">
             <div className="row center" id="AboutMe">
@@ -20,7 +25,7 @@ const AboutMe = () => {
             </div>
           </div>
         </div>
-        <div className="parallax">
+        <div className={parallaxAbout}>
           <img src={milkywaybackground} alt="Unsplashed background img 2" />
         </div>
       </div>
