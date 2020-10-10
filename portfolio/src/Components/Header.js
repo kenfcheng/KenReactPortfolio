@@ -3,7 +3,7 @@ import Ken_Logo from "../Images/Ken_Logo.png";
 import spaceBackground from "../Images/spaceBackground.jpg";
 // import Container from "./Container";
 import NavBar from "./NavBar";
-import { parallaxContainer } from "../Styles/Style.css";
+import { parallaxContainer, parallaxAbout } from "../Styles/Style.css";
 
 const Header = () => {
   return (
@@ -11,7 +11,7 @@ const Header = () => {
       <NavBar />
       <div id="index-banner" className={parallaxContainer}>
         <div className="section no-pad-bot">
-          <div className="container col 12 center">
+          <div className="container style=col 12 center">
             <img src={Ken_Logo} alt="KenLogo"></img>
             <br />
             <br />
@@ -25,7 +25,7 @@ const Header = () => {
             <br />
             <br />
           </div>
-          <div className="parallax">
+          <div className={parallaxAbout}>
             <img src={spaceBackground} alt="Unsplashed background img 1" />
           </div>
         </div>

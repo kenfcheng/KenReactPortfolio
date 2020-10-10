@@ -11,17 +11,17 @@ const NavBar = () => {
           ></button>
           <ul className="right hide-on-med-and-down">
             <li>
-              <button href="#"></button>
+              <a href="#"></a>
             </li>
           </ul>
 
-          <button
+          <a
             href="#"
             data-target="nav-mobile"
             className="sidenav-trigger btn-floating pulse"
           >
             <i className="material-icons">menu</i>
-          </button>
+          </a>
         </div>
       </nav>
     </div>

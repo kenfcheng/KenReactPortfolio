@@ -81,7 +81,6 @@ const DemoResume = () => {
                     <button type="submit" className="btn s12 m4">
                       Demo Video
                     </button>
-                    np
                   </form>
                 </p>
               </div>
