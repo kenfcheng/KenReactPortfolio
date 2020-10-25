@@ -96,15 +96,16 @@ const DemoResume = () => {
                   Are you interested but want to know more about my work
                   experience? Feel free to download my resume!
                 </p>
-                <a
+                <link
+                  to=".../public/DeveloperResume.pdf"
                   className="col s12 center"
-                  href="../Resume/DeveloperResume.pdf"
+                  target="_blank"
                   download
                 >
                   <button type="button" className="btn s12 m4">
                     Download Resume
                   </button>
-                </a>
+                </link>
               </div>
             </div>
           </div>

@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.914bf710.chunk.css",
+    "main.js": "/my-app/static/js/main.8831e0dd.chunk.js",
+    "main.js.map": "/my-app/static/js/main.8831e0dd.chunk.js.map",
+    "runtime-main.js": "/my-app/static/js/runtime-main.922ac3ad.js",
+    "runtime-main.js.map": "/my-app/static/js/runtime-main.922ac3ad.js.map",
+    "static/css/2.9a9a1f6f.chunk.css": "/my-app/static/css/2.9a9a1f6f.chunk.css",
+    "static/js/2.5791aa9e.chunk.js": "/my-app/static/js/2.5791aa9e.chunk.js",
+    "static/js/2.5791aa9e.chunk.js.map": "/my-app/static/js/2.5791aa9e.chunk.js.map",
+    "index.html": "/my-app/index.html",
+    "precache-manifest.5a9a6fb691e1922856c67e203bbbef9e.js": "/my-app/precache-manifest.5a9a6fb691e1922856c67e203bbbef9e.js",
+    "service-worker.js": "/my-app/service-worker.js",
+    "static/css/2.9a9a1f6f.chunk.css.map": "/my-app/static/css/2.9a9a1f6f.chunk.css.map",
+    "static/css/main.914bf710.chunk.css.map": "/my-app/static/css/main.914bf710.chunk.css.map",
+    "static/js/2.5791aa9e.chunk.js.LICENSE.txt": "/my-app/static/js/2.5791aa9e.chunk.js.LICENSE.txt",
+    "static/media/Ken_Logo.png": "/my-app/static/media/Ken_Logo.af46b627.png",
+    "static/media/constellationbackground.jpg": "/my-app/static/media/constellationbackground.b8baaf5a.jpg",
+    "static/media/milkywaybackground.jpg": "/my-app/static/media/milkywaybackground.d470ae00.jpg",
+    "static/media/spaceBackground.jpg": "/my-app/static/media/spaceBackground.632013c5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.922ac3ad.js",
+    "static/css/2.9a9a1f6f.chunk.css",
+    "static/js/2.5791aa9e.chunk.js",
+    "static/css/main.914bf710.chunk.css",
+    "static/js/main.8831e0dd.chunk.js"
+  ]
+}
