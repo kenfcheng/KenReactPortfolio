@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/KenReactPortfolio/static/css/main.914bf710.chunk.css",
+    "main.js": "/KenReactPortfolio/static/js/main.3618f243.chunk.js",
+    "main.js.map": "/KenReactPortfolio/static/js/main.3618f243.chunk.js.map",
+    "runtime-main.js": "/KenReactPortfolio/static/js/runtime-main.64760ae4.js",
+    "runtime-main.js.map": "/KenReactPortfolio/static/js/runtime-main.64760ae4.js.map",
+    "static/css/2.9a9a1f6f.chunk.css": "/KenReactPortfolio/static/css/2.9a9a1f6f.chunk.css",
+    "static/js/2.5791aa9e.chunk.js": "/KenReactPortfolio/static/js/2.5791aa9e.chunk.js",
+    "static/js/2.5791aa9e.chunk.js.map": "/KenReactPortfolio/static/js/2.5791aa9e.chunk.js.map",
+    "index.html": "/KenReactPortfolio/index.html",
+    "precache-manifest.206898d6160bb9457d13570b7e4266e9.js": "/KenReactPortfolio/precache-manifest.206898d6160bb9457d13570b7e4266e9.js",
+    "service-worker.js": "/KenReactPortfolio/service-worker.js",
+    "static/css/2.9a9a1f6f.chunk.css.map": "/KenReactPortfolio/static/css/2.9a9a1f6f.chunk.css.map",
+    "static/css/main.914bf710.chunk.css.map": "/KenReactPortfolio/static/css/main.914bf710.chunk.css.map",
+    "static/js/2.5791aa9e.chunk.js.LICENSE.txt": "/KenReactPortfolio/static/js/2.5791aa9e.chunk.js.LICENSE.txt",
+    "static/media/Ken_Logo.png": "/KenReactPortfolio/static/media/Ken_Logo.af46b627.png",
+    "static/media/constellationbackground.jpg": "/KenReactPortfolio/static/media/constellationbackground.b8baaf5a.jpg",
+    "static/media/milkywaybackground.jpg": "/KenReactPortfolio/static/media/milkywaybackground.d470ae00.jpg",
+    "static/media/spaceBackground.jpg": "/KenReactPortfolio/static/media/spaceBackground.632013c5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64760ae4.js",
+    "static/css/2.9a9a1f6f.chunk.css",
+    "static/js/2.5791aa9e.chunk.js",
+    "static/css/main.914bf710.chunk.css",
+    "static/js/main.3618f243.chunk.js"
+  ]
+}
