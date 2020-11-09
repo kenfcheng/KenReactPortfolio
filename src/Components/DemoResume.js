@@ -1,10 +1,6 @@
 import React from "react";
 import constellationbackground from "../Images/constellationbackground.jpg";
-import {
-  parallaxContainer,
-  valignWrapper,
-  parallaxAbout,
-} from "../Styles/Style.css";
+import { Parallax, Background } from "react-parallax";
 
 const DemoResume = () => {
   return (
@@ -21,7 +17,7 @@ const DemoResume = () => {
 
                 <h5 className="center">Front End</h5>
 
-                <p className="light">
+                <div className="light">
                   An example of my front-end work can be found on my GitHub. It
                   is a simple weather app that allows the user to find the
                   weather for the day by typing in the city.
@@ -46,7 +42,7 @@ const DemoResume = () => {
                       Deploy Link
                     </button>
                   </form>
-                </p>
+                </div>
               </div>
             </div>
 
@@ -57,7 +53,7 @@ const DemoResume = () => {
                 </h2>
                 <h5 className="center">Back End</h5>
 
-                <p className="light">
+                <div className="light">
                   An example of my back-end work can be found on my GitHub. This
                   is an employee database that allows the user to track
                   empoloyees on the server-side. You can also add new employees.
@@ -82,7 +78,7 @@ const DemoResume = () => {
                       Demo Video
                     </button>
                   </form>
-                </p>
+                </div>
               </div>
             </div>
 
@@ -96,38 +92,27 @@ const DemoResume = () => {
                   Are you interested but want to know more about my work
                   experience? Feel free to download my resume!
                 </p>
-                <link
-                  to=".../public/DeveloperResume.pdf"
-                  className="col s12 center"
-                  target="_blank"
-                  download
-                >
-                  <button type="button" className="btn s12 m4">
-                    Download Resume
-                  </button>
-                </link>
+
+                <button type="button" className="btn s12 m4">
+                  <link
+                    to="./DeveloperResume.pdf"
+                    className="col s12 center"
+                    target="_blank"
+                    download
+                  />
+                  Download Resume
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className={parallaxContainer} {...valignWrapper}>
-        <div className="section no-pad-bot">
-          <div className="container">
-            <div className="row center">
-              <h5 className="header col s12 light"></h5>
-            </div>
-          </div>
-        </div>
-
-        <div className={parallaxAbout}>
-          <img
-            src={constellationbackground}
-            alt="Unsplashed background img 3"
-          />
-        </div>
-      </div>
+      <Parallax strength={500}>
+        <Background style={{ Height: 550 }}>
+          <img src={constellationbackground} alt="constellBG" />
+        </Background>
+      </Parallax>
     </div>
   );
 };

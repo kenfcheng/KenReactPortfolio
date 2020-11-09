@@ -12,7 +12,7 @@ const Contact = () => {
                 <i className="mdi-content-send brown-text"></i>
               </h3>
               <h5>Contact Me</h5>
-              <p className="left-align light">
+              <div className="left-align light">
                 <form id="contact-form">
                   <input type="hidden" name="contact_number"></input>
                   <label>Name</label>
@@ -40,7 +40,7 @@ const Contact = () => {
                   ></textarea>
                   <input type="submit" value="Send"></input>
                 </form>
-              </p>
+              </div>
             </div>
             <LinkedIn />
           </div>
