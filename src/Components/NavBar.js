@@ -3,17 +3,23 @@ import React from "react";
 const NavBar = () => {
   return (
     <div>
-      <nav className="white" role="navigation">
+      <nav className=" blue darken-4" role="navigation">
         <div className="nav-wrapper container">
           <button
             id="logo-container"
             className="brand-logo left-align"
           ></button>
-          <ul className="right hide-on-med-and-down">
-            <li>
-              <a href="#"></a>
-            </li>
-          </ul>
+          <div className="right hide-on-med-and-down row">
+            <ul className="white-text col 1">
+              <a href="#Demo_Resume">Demo/Resume</a>
+            </ul>
+            <ul className="white-text col 2">
+              <a href="#Contact">Contact</a>
+            </ul>
+            <ul className="white-text col 3">
+              <a href="#About_Me"> About Me</a>
+            </ul>
+          </div>
 
           <a
             href="#"

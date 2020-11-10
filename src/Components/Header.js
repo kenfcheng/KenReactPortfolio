@@ -10,9 +10,11 @@ const Header = () => {
   return (
     <div>
       <NavBar />
+      <br></br>
+      <br></br>
 
-      <Parallax strength={500}>
-        <Background className="center" style={{ height: 550 }}>
+      <Parallax className="container" strength={500} style={{ height: 575 }}>
+        <Background className="center">
           <img src={spaceBG} alt="spaceBG" />
         </Background>
         <br />

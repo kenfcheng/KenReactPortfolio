@@ -1,10 +1,9 @@
 import React from "react";
-import constellationbackground from "../Images/constellationbackground.jpg";
-import { Parallax, Background } from "react-parallax";
 
 const DemoResume = () => {
   return (
     <div>
+      <a id="Demo_Resume"></a>
       <div className="container">
         <h5 className="center">Demos, Repos, and Resume</h5>
         <div className="section">
@@ -107,12 +106,6 @@ const DemoResume = () => {
           </div>
         </div>
       </div>
-
-      <Parallax strength={500}>
-        <Background style={{ Height: 550 }}>
-          <img src={constellationbackground} alt="constellBG" />
-        </Background>
-      </Parallax>
     </div>
   );
 };

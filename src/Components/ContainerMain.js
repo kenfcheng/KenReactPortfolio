@@ -10,6 +10,7 @@ const ContainerMain = () => {
       <Container />
       <AboutMe />
       <DemoResume />
+
       <Contact />
     </div>
   );

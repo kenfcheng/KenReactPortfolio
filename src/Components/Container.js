@@ -6,7 +6,7 @@ const Container = () => {
       <div className="container">
         <div className="section">
           <div className="row">
-            <div className="col s12 m4">
+            <div className=" col s12 m4">
               <div className="icon-block">
                 <h2 className="center brown-text">
                   <i className="material-icons">code</i>
@@ -22,7 +22,7 @@ const Container = () => {
               </div>
             </div>
 
-            <div className="col s12 m4">
+            <div className=" col s12 m4">
               <div className="icon-block">
                 <h2 className="center brown-text">
                   <i className="material-icons">sync_alt</i>
