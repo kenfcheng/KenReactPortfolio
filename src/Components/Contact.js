@@ -5,14 +5,11 @@ import constellation from "../Images/constellationbackground.jpg.jpg";
 
 const Contact = () => {
   return (
-    <Parallax
-      clasName="container center col s12"
-      strength={500}
-      style={{ height: 300, width: 1800 }}
-    >
-      <Background className="center row">
+    <Parallax strength={500}>
+      <Background style={{ height: 1281, width: 1920 }}>
         <img src={constellation} alt="constellation" />
       </Background>
+      <br></br>
       <LinkedIn />
       <a id="Contact"></a>
     </Parallax>
