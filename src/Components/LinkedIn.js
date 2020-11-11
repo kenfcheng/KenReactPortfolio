@@ -20,7 +20,9 @@ const LinkedIn = () => {
           Ken Cheng
         </a>
       </div>
-      <p className="col 8 center white-text">Phone Number: +1 704-692-7685</p>
+      <h6 className="col 8 push-s2 white-text">
+        Phone Number: +1 704-692-7685
+      </h6>
     </div>
   );
 };

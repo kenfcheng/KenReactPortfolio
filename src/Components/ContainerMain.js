@@ -11,13 +11,11 @@ const ContainerMain = () => {
     <div className="backgroundColor grey lighten-1">
       <Header />
       <Container />
-
       <AboutMe />
       <DemoResume />
-
+      <br></br>
+      <br></br>
       <Contact />
-      <br></br>
-      <br></br>
       <Footer />
     </div>
   );
