@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/KenReactPortfolio/static/css/main.5f361e03.chunk.css",
+    "main.css": "/KenReactPortfolio/static/css/main.523f09c5.chunk.css",
     "main.js": "/KenReactPortfolio/static/js/main.d50e18e0.chunk.js",
     "main.js.map": "/KenReactPortfolio/static/js/main.d50e18e0.chunk.js.map",
     "runtime-main.js": "/KenReactPortfolio/static/js/runtime-main.64760ae4.js",
@@ -9,10 +9,10 @@
     "static/js/2.f9133bca.chunk.js": "/KenReactPortfolio/static/js/2.f9133bca.chunk.js",
     "static/js/2.f9133bca.chunk.js.map": "/KenReactPortfolio/static/js/2.f9133bca.chunk.js.map",
     "index.html": "/KenReactPortfolio/index.html",
-    "precache-manifest.b8012bcbd9545c43e5929c189b721245.js": "/KenReactPortfolio/precache-manifest.b8012bcbd9545c43e5929c189b721245.js",
+    "precache-manifest.5a90dfe384ca15e9675fe0ac0d0b6883.js": "/KenReactPortfolio/precache-manifest.5a90dfe384ca15e9675fe0ac0d0b6883.js",
     "service-worker.js": "/KenReactPortfolio/service-worker.js",
     "static/css/2.988fb9c7.chunk.css.map": "/KenReactPortfolio/static/css/2.988fb9c7.chunk.css.map",
-    "static/css/main.5f361e03.chunk.css.map": "/KenReactPortfolio/static/css/main.5f361e03.chunk.css.map",
+    "static/css/main.523f09c5.chunk.css.map": "/KenReactPortfolio/static/css/main.523f09c5.chunk.css.map",
     "static/js/2.f9133bca.chunk.js.LICENSE.txt": "/KenReactPortfolio/static/js/2.f9133bca.chunk.js.LICENSE.txt",
     "static/media/GitHubLogo.png": "/KenReactPortfolio/static/media/GitHubLogo.bf516574.png",
     "static/media/KenPhoto.jpg": "/KenReactPortfolio/static/media/KenPhoto.8f2af2e5.jpg",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.64760ae4.js",
     "static/css/2.988fb9c7.chunk.css",
     "static/js/2.f9133bca.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
+    "static/css/main.523f09c5.chunk.css",
     "static/js/main.d50e18e0.chunk.js"
   ]
 }
