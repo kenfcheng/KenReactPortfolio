@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 // import ReactDOM from ('react-dom');
-
+import Email from "./Email";
 import LinkedIn from "./LinkedIn";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 // import { Parallax, Background } from "react-parallax";
@@ -14,7 +14,7 @@ class Contact extends Component {
       <div className="row">
         <a id="Contact"></a>
 
-        <Carousel className="container  col m4 push-m4">
+        <Carousel className="container col m5 push-m2">
           <div
             style={{
               backgroundImage: `url(${constellation})`,
@@ -55,6 +55,8 @@ class Contact extends Component {
             <p className="legend">Legend 3</p>
           </div>
         </Carousel>
+
+        <Email />
       </div>
     );
   }
