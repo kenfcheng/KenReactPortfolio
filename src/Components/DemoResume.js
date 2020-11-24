@@ -1,4 +1,5 @@
 import React from "react";
+import myResume from "./DeveloperResume.pdf";
 
 const DemoResume = () => {
   return (
@@ -93,13 +94,9 @@ const DemoResume = () => {
                 </p>
 
                 <button type="button" className="btn s12 m4">
-                  <link
-                    to="./DeveloperResume.pdf"
-                    className="col s12 center"
-                    target="_blank"
-                    download
-                  />
-                  Download Resume
+                  <a href={myResume} download="DeveloperResume.pdf">
+                    Download Resume
+                  </a>
                 </button>
               </div>
             </div>
