@@ -1,5 +1,6 @@
 import React from "react";
 import myResume from "./DeveloperResume.pdf";
+import DemoModal from "./demoModal";
 
 const DemoResume = () => {
   return (
@@ -68,16 +69,7 @@ const DemoResume = () => {
                     </button>
                   </form>
                   <br></br>
-                  <form
-                    action="https://youtu.be/d-XIHPWB0vU"
-                    method="get"
-                    target="_blank"
-                    className="col s12 center"
-                  >
-                    <button type="submit" className="btn s12 m4">
-                      Demo Video
-                    </button>
-                  </form>
+                  <DemoModal />
                 </div>
               </div>
             </div>
