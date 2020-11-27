@@ -17,7 +17,7 @@ const Container = () => {
                 <p className="light">
                   Experienced in HTML, CSS, Javascript. I am familiar with
                   various CSS frameworks like Boostrap, Materialize,
-                  Skeletonize. As well as Javascript frameworks like JQuery and
+                  Skeletonize. As well as Javascript libraries like JQuery and
                   React.
                 </p>
               </div>
