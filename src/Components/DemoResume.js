@@ -1,5 +1,5 @@
 import React from "react";
-import myResume from "./DeveloperResume.pdf";
+import myResume from "./Resume.pdf";
 import DemoModal from "./demoModal";
 
 const DemoResume = () => {

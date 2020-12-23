@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 // import ReactDOM from ('react-dom');
-import Email from "./Email";
+// import Email from "./Email";
 import LinkedIn from "./LinkedIn";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 // import { Parallax, Background } from "react-parallax";
@@ -55,8 +55,6 @@ class Contact extends Component {
             <p className="legend">Legend 3</p>
           </div>
         </Carousel>
-
-        <Email />
       </div>
     );
   }
