@@ -1,4 +1,11 @@
 import React from "react";
+// Imports FontAwesome
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { library } from "@fortawesome/fontawesome-svg-core";
+// Imports Icons
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
+// import { fab } from
 
 const NavBar = () => {
   return (
@@ -15,6 +22,17 @@ const NavBar = () => {
             <ul className="white-text col 3">
               <a href="#About_Me"> About Me</a>
             </ul>
+            <ul className="white-text col 3">
+              <a href="#Email"> Email</a>
+            </ul>
+
+            <a href="https://github.com/kenfcheng">
+              <FontAwesomeIcon
+                icon={faGithub}
+                style={{ width: "35px", height: "35px" }}
+              />
+              GitHub
+            </a>
           </div>
         </div>
       </nav>

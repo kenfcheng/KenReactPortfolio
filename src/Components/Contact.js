@@ -28,32 +28,6 @@ class Contact extends Component {
             <br></br>
             <LinkedIn />
           </div>
-
-          <div
-            style={{
-              backgroundImage: `url(${constellation})`,
-              backgroundSize: "cover",
-              width: 799,
-              height: 400,
-            }}
-          >
-            <div
-              className="card s4 push-s5"
-              style={{ width: 350, height: 263 }}
-            >
-              <a href="https://github.com/kenfcheng">
-                <i
-                  src={gitHubLogo}
-                  alt="GitHub"
-                  style={{ width: 150, height: 113 }}
-                ></i>
-              </a>
-            </div>
-          </div>
-          <div>
-            <img src="assets/3.jpeg" />
-            <p className="legend">Legend 3</p>
-          </div>
         </Carousel>
       </div>
     );
