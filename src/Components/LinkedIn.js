@@ -23,8 +23,6 @@ const LinkedIn = () => {
       <h6 className="col 8 push-s2 white-text">
         Phone Number: +1 704-692-7685
       </h6>
-
-      <i className="fab fa-github"></i>
     </div>
   );
 };
