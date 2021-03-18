@@ -1,5 +1,5 @@
 import React from "react";
-import { Background, Parallax } from "react-parallax";
+
 // import logo from "./logo.svg";
 import "./App.css";
 import background from "./Images/milkywaybackground.jpg";

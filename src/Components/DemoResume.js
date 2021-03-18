@@ -1,7 +1,7 @@
 import React from "react";
 import myResume from "./Resume.pdf";
 import DemoModal from "./demoModal";
-
+import "../Styles/demoResume.css";
 const DemoResume = () => {
   return (
     <div>
@@ -68,6 +68,7 @@ const DemoResume = () => {
                       GitHub Link
                     </button>
                   </form>
+                  <br />
                   <br></br>
                   <DemoModal />
                 </div>
@@ -85,7 +86,10 @@ const DemoResume = () => {
                   experience? Feel free to download my resume!
                 </p>
 
-                <button type="button" className="btn s12 m4">
+                <button
+                  type="button"
+                  className="btn s12 m4 waves-effect waves-light purple"
+                >
                   <a href={myResume} download="DeveloperResume.pdf">
                     Download Resume
                   </a>

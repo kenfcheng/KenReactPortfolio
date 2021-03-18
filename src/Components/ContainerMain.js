@@ -3,7 +3,6 @@ import Header from "./Header";
 import Container from "./Container";
 import AboutMe from "./AboutMe";
 import DemoResume from "./DemoResume";
-// import Contact from "./Contact";
 
 import Footer from "./Footer";
 
@@ -14,7 +13,8 @@ const ContainerMain = () => {
       <br></br>
       <AboutMe />
       <Container />
-
+      <br />
+      <br />
       <DemoResume />
       <br />
       <br />
