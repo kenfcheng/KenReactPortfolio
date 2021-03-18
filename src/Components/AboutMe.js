@@ -25,14 +25,18 @@ const AboutMe = () => {
           <div className="col m6">
             <h5 className="white-text">About Me</h5>
             <p className="container white-text">
-              A North Carolina native, I got my Bachelor's degree in English
-              from UNC Greensboro. Most of my professional career has been
-              working in food service but I've also has the opportunity to write
-              for a local newspaper and for a local news station. During the
-              early days of the Covid pandemic, the company I worked for did
-              mass layoffs and I found myself without a job. I decided to take
-              that as an opportunity for a career change and decided to go down
-              the path of becoming a full-stack developer.
+              I am a North Carolina native who received his bachelor's degree
+              from the University of North Carolina at Greensboro Most of my
+              professional career has been in food services, but I also had the
+              opportunity to write for a local newspaper company and new
+              station. During the early days of the Covid-19 pandemic the
+              company I worked for did mass lay-offs. I found myself without a
+              job. This opened the door for a new opportunity and career change.
+              I decided to revisit an old passion I had for computers. More
+              specifically, web development and coding. This journey is very new
+              and has had its trials and tribulations, I am eager to continue
+              down this path learning new technologies as they evolve and seeing
+              where it takes me.
             </p>
           </div>
         </div>

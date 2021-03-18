@@ -4,9 +4,9 @@ import React from "react";
 // import Container from "./Container";
 import NavBar from "./NavBar";
 // import { Parallax, Background } from "react-parallax";
+import MaterialIcon from "@material/react-material-icon";
 import "../Styles/header.css";
 
-// const spaceBG = spaceBackground;
 const Header = () => {
   return (
     <div>
@@ -16,6 +16,10 @@ const Header = () => {
 
       <div className="header">
         <h4 className="header-name">Ken Cheng | Full-stack Web Developer</h4>
+        <h6>
+          <MaterialIcon className="white-text" icon="email" />{" "}
+          <text className="white-text">kenfcheng@gmail.com</text>
+        </h6>
       </div>
     </div>
   );
