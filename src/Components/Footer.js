@@ -7,12 +7,12 @@ import React from "react";
 // Materialize Icons
 import MaterialIcon from "@material/react-material-icon";
 // import { pageFooter } from "react";
+import "../Styles/footer.css";
 
 const Footer = () => {
   return (
-    <div>
-      <a id="Email"></a>
-      <footer className="  page-footer cyan darken-4">
+    <div className="footer">
+      <footer>
         <div className="row">
           <div className="col 8 s12 center">
             <h6 className="white-text">Ken Cheng Copyright 2020</h6>

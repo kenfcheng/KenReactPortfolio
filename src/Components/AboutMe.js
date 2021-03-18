@@ -23,7 +23,7 @@ const AboutMe = () => {
           </div>
 
           <div className="col m6">
-            <h5 className="header white-text">About Me</h5>
+            <h5 className="white-text">About Me</h5>
             <p className="container white-text">
               A North Carolina native, I got my Bachelor's degree in English
               from UNC Greensboro. Most of my professional career has been
