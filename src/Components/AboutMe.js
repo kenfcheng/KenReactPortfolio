@@ -1,6 +1,6 @@
 import React from "react";
 import { Parallax, Background } from "react-parallax";
-import milkywaybackground from "../Images/milkywaybackground.jpg";
+import background from "../Images/space.jpg";
 import photo from "../Images/KenPhoto.jpg";
 
 const AboutMe = () => {
@@ -9,7 +9,7 @@ const AboutMe = () => {
       <a id="About_Me"></a>
       <Parallax className="container" strength={700} style={{ height: 500 }}>
         <Background className=" center">
-          <img src={milkywaybackground} alt="About Me" />
+          <img src={background} alt="About Me" />
         </Background>
         <div className="row">
           <br></br>

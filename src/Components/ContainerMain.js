@@ -11,8 +11,9 @@ const ContainerMain = () => {
   return (
     <div>
       <Header />
-      <Container />
       <AboutMe />
+      <Container />
+
       <DemoResume />
       <br></br>
       <br></br>
