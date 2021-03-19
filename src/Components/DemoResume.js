@@ -100,7 +100,7 @@ const DemoResume = () => {
                   type="button"
                   className="btn s12 m4 waves-effect waves-light grey"
                 >
-                  <a href={myResume} download="DeveloperResume.pdf">
+                  <a href={myResume} download="Resume.pdf">
                     Download Resume
                   </a>
                 </button>
