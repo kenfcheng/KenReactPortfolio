@@ -1,11 +1,12 @@
 import React from "react";
+import "../Styles/container.css";
 
 const Container = () => {
   return (
     <div>
       <div className="container">
         <div className="section">
-          <h4>Experience</h4>
+          <h4 className="exp-color">Experience</h4>
           <div className="row">
             <div className=" col s12 m4">
               <div className="icon-block">
@@ -47,11 +48,14 @@ const Container = () => {
                 <h5 className="center">Content Writer</h5>
 
                 <p className="light">
-                  I have experience in writing content for newspapers, blogs,
-                  and websites. A sample of some of my work can be found
+                  15+ years of experience in technical writing, content writing,
+                  blog, newspaper copy, and social media.
                 </p>
-                <a href="#" download className="col s12 center">
-                  <button type="button" className="btn s12 m4">
+                <a href="#" download className="col s12 center ">
+                  <button
+                    type="button"
+                    className="btn s12 m4 waves-effect waves-light grey"
+                  >
                     Writing Sample
                   </button>
                 </a>

@@ -3,19 +3,22 @@ import Header from "./Header";
 import Container from "./Container";
 import AboutMe from "./AboutMe";
 import DemoResume from "./DemoResume";
-import Contact from "./Contact";
+
 import Footer from "./Footer";
 
 const ContainerMain = () => {
   return (
-    <div className="backgroundColor grey lighten-1">
+    <div>
       <Header />
-      <Container />
+      <br></br>
       <AboutMe />
+      <Container />
+      <br />
+      <br />
       <DemoResume />
-      <br></br>
-      <br></br>
-      <Contact />
+      <br />
+      <br />
+      <br />
       <Footer />
     </div>
   );

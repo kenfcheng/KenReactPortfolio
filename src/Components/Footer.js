@@ -5,20 +5,18 @@ import React from "react";
 // import { library } from "@fortawesome/fontawesome-svg-core";
 
 // Materialize Icons
-import MaterialIcon from "@material/react-material-icon";
+// import MaterialIcon from "@material/react-material-icon";
+// import EmailTwoToneIcon from "@material-ui/icons/EmailTwoTone";
 // import { pageFooter } from "react";
+import "../Styles/footer.css";
 
 const Footer = () => {
   return (
-    <div>
-      <a id="Email"></a>
-      <footer className="  page-footer cyan darken-4">
+    <div className="footer">
+      <footer>
         <div className="row">
           <div className="col 8 s12 center">
-            <h6 className="white-text">Ken Cheng Copyright 2020</h6>
-            <h6>
-              <MaterialIcon icon="email" /> kenfcheng@gmail.com
-            </h6>
+            <h6 className="white-text">Ken Cheng | Copyright 2020 |</h6>
           </div>
         </div>
       </footer>

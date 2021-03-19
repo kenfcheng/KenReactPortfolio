@@ -1,11 +1,12 @@
 import React from "react";
-import Ken_Logo from "../Images/Ken_Logo.png";
-import spaceBackground from "../Images/spaceBackground.jpg";
+//import Ken_Logo from "../Images/Ken_Logo.png";
+// import spaceBackground from "../Images/spaceBackground.jpg";
 // import Container from "./Container";
 import NavBar from "./NavBar";
-import { Parallax, Background } from "react-parallax";
+// import { Parallax, Background } from "react-parallax";
+import MaterialIcon from "@material/react-material-icon";
+import "../Styles/header.css";
 
-const spaceBG = spaceBackground;
 const Header = () => {
   return (
     <div>
@@ -13,21 +14,13 @@ const Header = () => {
       <br></br>
       <br></br>
 
-      <Parallax className="container" strength={500} style={{ height: 575 }}>
-        <Background className="center">
-          <img src={spaceBG} alt="spaceBG" />
-        </Background>
-        <br />
-        <br />
-        <img src={Ken_Logo} alt="KenLogo" />
-        <div className="row center">
-          <h2 className="header white-text" id="header-dev">
-            Full stack developer and content writer.
-          </h2>
-        </div>
-      </Parallax>
-      <br></br>
-      <br></br>
+      <div className="header">
+        <h4 className="header-name">Ken Cheng | Full-stack Web Developer</h4>
+        <h6>
+          <MaterialIcon className="white-text" icon="email" />{" "}
+          <text className="white-text">kenfcheng@gmail.com</text>
+        </h6>
+      </div>
     </div>
   );
 };

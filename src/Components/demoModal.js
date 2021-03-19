@@ -13,8 +13,11 @@ export default function DemoModal() {
   }
 
   return (
-    <div className="App">
-      <button onClick={toggleModal} className="btn s12 m4">
+    <div>
+      <button
+        onClick={toggleModal}
+        className="demo btn s12 m4 waves-effect waves-light green"
+      >
         Demo
       </button>
 
@@ -23,11 +26,38 @@ export default function DemoModal() {
         onRequestClose={toggleModal}
         contentLabel="My dialog"
         className="grey lighten-1"
+        style={{
+          overlay: {
+            position: "fixed",
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            backgroundColor: "#39344e",
+          },
+          content: {
+            position: "center",
+            top: "40px",
+            left: "40px",
+            right: "40px",
+            bottom: "40px",
+            border: "1px solid #ccc",
+            background: "#fff",
+            overflow: "auto",
+            WebkitOverflowScrolling: "touch",
+            borderRadius: "4px",
+            outline: "none",
+            padding: "20px",
+          },
+        }}
       >
         <Player />
         <br></br>
         <br></br>
-        <button className="btn s12 m4" onClick={toggleModal}>
+        <button
+          className="btn s12 m4 waves-effect waves-light red"
+          onClick={toggleModal}
+        >
           Close
         </button>
       </Modal>

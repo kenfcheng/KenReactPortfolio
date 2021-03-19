@@ -7,7 +7,7 @@
   border: 1px solid #ccc;
   background: rgb(104, 98, 98);
   overflow: auto;
-  border-radius: 4px;
+  border-radius: 20px;
   outline: none;
   padding: 20px;
 }
