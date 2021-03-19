@@ -28,7 +28,10 @@ const DemoResume = () => {
                     target="_blank"
                     className="col s12 center"
                   >
-                    <button type="submit" className="btn s12 m4">
+                    <button
+                      type="submit"
+                      className="btn s12 m4 waves-effect waves-light grey"
+                    >
                       GitHub Link
                     </button>
                   </form>
@@ -39,7 +42,10 @@ const DemoResume = () => {
                     target="_blank"
                     className="col s12 center"
                   >
-                    <button type="submit" className="btn s12 m4">
+                    <button
+                      type="submit"
+                      className="btn s12 m4 waves-effect waves-light green"
+                    >
                       Deploy Link
                     </button>
                   </form>
@@ -64,7 +70,11 @@ const DemoResume = () => {
                     target="_blank"
                     className="col s12 center"
                   >
-                    <button type="submit" className="btn s12 m4">
+                    <button
+                      type="submit"
+                      className="btn s12 m4 waves-effect waves-light grey
+                      "
+                    >
                       GitHub Link
                     </button>
                   </form>
@@ -88,7 +98,7 @@ const DemoResume = () => {
 
                 <button
                   type="button"
-                  className="btn s12 m4 waves-effect waves-light purple"
+                  className="btn s12 m4 waves-effect waves-light grey"
                 >
                   <a href={myResume} download="DeveloperResume.pdf">
                     Download Resume

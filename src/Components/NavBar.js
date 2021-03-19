@@ -3,7 +3,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 // Imports Icons
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import "../Styles/nav.css";
 
 // import { fab } from
@@ -17,15 +17,21 @@ const NavBar = () => {
             <ul className="white-text col 1">
               <a href="#Demo_Resume">Demo/Resume</a>
             </ul>
-            <ul className="white-text col 2">
-              <a href="#Contact">Contact</a>
-            </ul>
+
             <ul className="white-text col 3">
               <a href="#About_Me"> About Me</a>
             </ul>
-            <ul className="white-text col 3">
-              <a href="#Email"> Email</a>
-            </ul>
+
+            <a
+              className="linkedIn"
+              href="https://www.linkedin.com/in/kenfcheng/"
+            >
+              <FontAwesomeIcon
+                icon={faLinkedin}
+                style={{ width: "35px", height: "35px" }}
+              />
+              LinkedIn
+            </a>
 
             <a href="https://github.com/kenfcheng">
               <FontAwesomeIcon

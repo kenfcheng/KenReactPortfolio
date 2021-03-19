@@ -13,8 +13,11 @@ export default function DemoModal() {
   }
 
   return (
-    <div className="App">
-      <button onClick={toggleModal} className="btn s12 m4">
+    <div>
+      <button
+        onClick={toggleModal}
+        className="demo btn s12 m4 waves-effect waves-light green"
+      >
         Demo
       </button>
 
@@ -51,7 +54,10 @@ export default function DemoModal() {
         <Player />
         <br></br>
         <br></br>
-        <button className="btn s12 m4" onClick={toggleModal}>
+        <button
+          className="btn s12 m4 waves-effect waves-light red"
+          onClick={toggleModal}
+        >
           Close
         </button>
       </Modal>
