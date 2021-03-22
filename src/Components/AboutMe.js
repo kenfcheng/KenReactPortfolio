@@ -7,7 +7,7 @@ const AboutMe = () => {
   return (
     <div>
       <a id="About_Me"></a>
-      <Parallax className="container" strength={700} style={{ height: 500 }}>
+      <Parallax className="container" strength={700} style={{ height: 550 }}>
         <Background className=" center">
           <img src={background} alt="About Me" />
         </Background>
@@ -18,7 +18,7 @@ const AboutMe = () => {
             <img
               src={photo}
               alt="KenPhoto"
-              style={{ height: 375, width: 500 }}
+              style={{ height: 450, width: 500 }}
             />
           </div>
 
