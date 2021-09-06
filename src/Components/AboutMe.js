@@ -1,7 +1,7 @@
 import React from "react";
 import { Parallax, Background } from "react-parallax";
 import background from "../Images/space.jpg";
-import photo from "../Images/KenPhoto.jpg";
+import photo from "../Images/bizness.jpg";
 
 const AboutMe = () => {
   return (
@@ -18,7 +18,7 @@ const AboutMe = () => {
             <img
               src={photo}
               alt="KenPhoto"
-              style={{ height: 450, width: 500 }}
+              style={{ height: 350, width: 650 }}
             />
           </div>
 

@@ -36,6 +36,8 @@ const DemoResume = () => {
                     </button>
                   </form>
                   <br></br>
+                  <br></br>
+                  <br></br>
                   <form
                     action="https://kenfcheng.github.io/WeatherApp/?"
                     method="get"
@@ -79,6 +81,7 @@ const DemoResume = () => {
                     </button>
                   </form>
                   <br />
+                  <br></br>
                   <br></br>
                   <DemoModal />
                 </div>
