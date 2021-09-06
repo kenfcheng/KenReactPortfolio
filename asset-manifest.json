@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/KenReactPortfolio/static/css/main.cb1d7c26.chunk.css",
-    "main.js": "/KenReactPortfolio/static/js/main.8202fc2d.chunk.js",
-    "main.js.map": "/KenReactPortfolio/static/js/main.8202fc2d.chunk.js.map",
+    "main.js": "/KenReactPortfolio/static/js/main.a4bb4ee2.chunk.js",
+    "main.js.map": "/KenReactPortfolio/static/js/main.a4bb4ee2.chunk.js.map",
     "runtime-main.js": "/KenReactPortfolio/static/js/runtime-main.80e33819.js",
     "runtime-main.js.map": "/KenReactPortfolio/static/js/runtime-main.80e33819.js.map",
     "static/css/2.0a49d93f.chunk.css": "/KenReactPortfolio/static/css/2.0a49d93f.chunk.css",
@@ -12,8 +12,8 @@
     "static/css/2.0a49d93f.chunk.css.map": "/KenReactPortfolio/static/css/2.0a49d93f.chunk.css.map",
     "static/css/main.cb1d7c26.chunk.css.map": "/KenReactPortfolio/static/css/main.cb1d7c26.chunk.css.map",
     "static/js/2.61115ed0.chunk.js.LICENSE.txt": "/KenReactPortfolio/static/js/2.61115ed0.chunk.js.LICENSE.txt",
-    "static/media/KenPhoto.1cd03b8a.jpg": "/KenReactPortfolio/static/media/KenPhoto.1cd03b8a.jpg",
     "static/media/Resume.31e685c0.pdf": "/KenReactPortfolio/static/media/Resume.31e685c0.pdf",
+    "static/media/bizness.298ac9cc.jpg": "/KenReactPortfolio/static/media/bizness.298ac9cc.jpg",
     "static/media/milkywaybackground.7fbfc24e.jpg": "/KenReactPortfolio/static/media/milkywaybackground.7fbfc24e.jpg",
     "static/media/space.90e4a6b2.jpg": "/KenReactPortfolio/static/media/space.90e4a6b2.jpg"
   },
@@ -22,6 +22,6 @@
     "static/css/2.0a49d93f.chunk.css",
     "static/js/2.61115ed0.chunk.js",
     "static/css/main.cb1d7c26.chunk.css",
-    "static/js/main.8202fc2d.chunk.js"
+    "static/js/main.a4bb4ee2.chunk.js"
   ]
 }
