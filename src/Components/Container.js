@@ -51,7 +51,11 @@ const Container = () => {
                   15+ years of experience in technical writing, content writing,
                   blog, newspaper copy, and social media.
                 </p>
-                <a href="#" download className="col s12 center ">
+                <a
+                  href="https://drive.google.com/drive/folders/1yhBrcfrpn-F_q5ZQ0RB_U3vOGtf21oeP?usp=sharing"
+                  download
+                  className="col s12 center "
+                >
                   <button
                     type="button"
                     className="btn s12 m4 waves-effect waves-light grey"
